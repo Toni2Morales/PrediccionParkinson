@@ -1,80 +1,11 @@
-2024-06-16 12:50:50,406:WARNING:
+2024-06-20 12:52:19,917:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 12:50:50,407:WARNING:
+2024-06-20 12:52:19,917:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 12:50:50,407:WARNING:
+2024-06-20 12:52:19,917:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 12:50:50,407:WARNING:
+2024-06-20 12:52:19,918:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 22:48:23,154:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 22:48:23,154:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 22:48:23,154:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 22:48:23,154:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 23:00:29,122:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 23:00:29,122:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 23:00:29,122:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 23:00:29,122:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-16 23:11:12,860:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
+2024-06-20 12:55:33,992:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
   warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-16 23:11:32,220:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:08:14,642:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:08:14,642:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:08:14,642:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:08:14,642:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:10:49,223:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:16:28,269:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:18:13,274:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:13,275:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:13,275:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:13,275:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:38,833:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:38,833:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:38,833:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:18:38,833:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:19:06,970:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:24:05,158:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:24:05,158:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:24:05,158:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:24:05,158:WARNING:
-'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
-2024-06-19 12:24:40,559:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:25:46,534:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/metadata/visualization.py:128: RuntimeWarning: Graphviz does not seem to be installed on this system. For full metadata visualization capabilities, please make sure to have its binaries propertly installed: https://graphviz.gitlab.io/download/
-  warnings.warn(warning_message, RuntimeWarning)
-
-2024-06-19 12:30:05,388:WARNING:/workspace/.pyenv_mirror/user/current/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
-  warnings.warn(
 
