@@ -29,7 +29,7 @@ Tienes varias maneras de tener el entorno idoneo para ejecutar el código del re
 ----instrucciones a escribir--------------------------
 ## Posibles problemas
 * `failed to execute PosixPath('dot')`: Instalar Graphviz
-    * MacOS: `sudo port install graphviz`
-    * Linux: `sudo apt install graphviz`
-    * Windows(Chocolatey instalado): `choco install graphviz`
+    * MacOS: Ejecutar `sudo port install graphviz` en un terminal.
+    * Linux: Ejecutar `sudo apt install graphviz` en un terminal.
+    * Windows(Chocolatey instalado): Ejecutar `choco install graphviz` en un terminal.
 * `font family ['serif'] not found.`: Ejecutar la sección `"Previo"` de nuevo, ejecutar el código de la gráfica otra vez y continuar.
