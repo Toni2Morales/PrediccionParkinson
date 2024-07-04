@@ -313,3 +313,47 @@ Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
 2024-07-03 21:34:56,743:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
   warnings.warn(
 
+2024-07-04 11:15:10,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 11:15:10,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 11:15:10,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 11:15:10,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 11:15:17,459:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+
+2024-07-04 15:50:17,007:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 15:50:17,007:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 15:50:17,007:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 15:50:17,007:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 15:50:19,652:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+
+2024-07-04 16:55:14,691:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 16:55:14,692:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 16:55:14,692:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 16:55:14,692:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 16:55:19,175:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+
+2024-07-04 19:31:13,053:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 19:31:13,053:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 19:31:13,053:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 19:31:13,053:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-04 19:31:17,711:WARNING:/workspace/PrediccionParkinson/env/lib/python3.10/site-packages/sdv/single_table/base.py:84: UserWarning: We strongly recommend saving the metadata using 'save_to_json' for replicability in future SDV versions.
+  warnings.warn(
+
