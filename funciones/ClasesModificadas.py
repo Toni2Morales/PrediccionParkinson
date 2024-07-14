@@ -25,15 +25,16 @@ class CTGANMod(CTGAN):
         self.EarlyStoppingEspera = EarlyStoppingEspera #La espera es el número de épocas para esperar antes de detener el entrenamiento.
         self.EarlyStoppingDisminucion = EarlyStoppingDisminucion #Mínima disminución requerida en la pérdida para continuar el entrenamiento.
         self.EarlyStoppingMejor = None
-    def EarlyStopping(self, GenDis):
-        #GenDis es el nombre del discriminador o el generador para acceder a la pérdida de uno u otro.
-        #Calculamos la diferencia entre la penúltima y última pérdida y comprobamos si disminuye o aumenta
+        self.NumMedia = 50
+    def EarlyStopping(self, Loss): # Función para aplicar early stopping al entrenamiento
         if self.EarlyStoppingMejor == None:
-            self.EarlyStoppingMejor = np.abs(self.loss_values[GenDis].iloc[-1])
-        elif np.abs(self.loss_values[GenDis].iloc[-1]) + self.EarlyStoppingDisminucion < self.EarlyStoppingMejor:
-            self.EarlyStoppingMejor = np.abs(self.loss_values[GenDis].iloc[-1])
+            self.EarlyStoppingMejor = np.mean(np.abs(Loss))
         else:
-            return True
+            if np.mean(np.abs(Loss[:-(self.NumMedia+1):-1])) + self.EarlyStoppingDisminucion < self.EarlyStoppingMejor:
+                self.EarlyStoppingMejor = np.mean(np.abs(Loss[:-(self.NumMedia+1):-1]))
+                return True
+            else:
+                return False
     @random_state
     def fit(self, train_data, discrete_columns=(), epochs=None):
         """Fit the CTGAN Synthesizer models to the training data.
@@ -199,12 +200,12 @@ class CTGANMod(CTGAN):
                     description.format(gen=generator_loss, dis=discriminator_loss)
                 )
                 #Esta es nuestra modificación
-            if i >= 1000:
-                GenLoss = self.EarlyStopping("Generator Loss")
-                DisLoss = self.EarlyStopping("Discriminator Loss")
-                if GenLoss and DisLoss:
+            if i >= self.NumMedia -1:
+                GenLoss = self.EarlyStopping(self.loss_values["Generator Loss"])
+                DisLoss = self.EarlyStopping(self.loss_values["Discriminator Loss"])
+                if not(GenLoss) and not(DisLoss):
                     Contador += 1
-                    if Contador == self.EarlyStoppingEspera:
+                    if (Contador >= self.EarlyStoppingEspera) and i >= 500:
                         print("Se detuvo el entrenamiento prematuramente debido a la falta de mejora.")
                         break
                 else:
