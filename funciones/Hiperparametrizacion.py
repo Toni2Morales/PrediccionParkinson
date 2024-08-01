@@ -82,6 +82,6 @@ def Hiper(Principal, Meta, RangoEpocas, RangoBatchSize, RangoDiscriminatorDim, R
                                 "LossesPlot": Synthesizer.get_loss_values_plot()})
     return MejoresParametros
   except BaseException as e:
-    print("Ha fallado en el intento nº", len(MejoresParametros)+1)
+    print("Ha fallado en el intento nº" + str(len(MejoresParametros)+1))
     Guardar(MejoresParametros, "MejoresParametros") #Si algo falla en la iteración los queremos guardar igualmente.
     raise e
