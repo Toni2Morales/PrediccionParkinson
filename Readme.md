@@ -37,3 +37,7 @@ Enlace al dataset: [Kaggle]("https://www.kaggle.com/datasets/jainaru/parkinson-d
     * Linux: Ejecutar `sudo apt install graphviz` en un terminal.
     * Windows(Chocolatey instalado): Ejecutar `choco install graphviz` en un terminal.
 * `font family ['serif'] not found.`: Ejecutar la sección `"Previo"` de nuevo, ejecutar el código de la gráfica otra vez y continuar.
+* `libGL.so.1: cannot open shared object file: No such file or directory`: Instalar todas las siguientes dependencias:
+    * sudo apt-get install libgl1-mesa-glx
+    * sudo apt-get install libglib2.0-0
+    * sudo apt-get install ffmpeg libsm6 libxext6
